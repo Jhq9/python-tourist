@@ -1,21 +1,12 @@
 favourite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'ruby',
-    'phil': 'python'
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell']
 }
 
-print("Sarah's favourite language is " +
-      favourite_languages['sarah'].title() +
-      ".")
-
-
-john_info = {
-    'first_name': 'john',
-    'last_name': 'edward',
-    'city': 'new york'
-}
-print(john_info['first_name'])
-print(john_info['last_name'])
-print(john_info['city'])
+for name, languages in favourite_languages.items():
+    print("\n" + name.title() + "'s favourite languages are:")
+    for language in languages:
+        print("\t" + language.title())
 
