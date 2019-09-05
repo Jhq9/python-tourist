@@ -1,0 +1,1 @@
+places = ['japan', 'europe', 'america', 'beijing', 'shanghai']
