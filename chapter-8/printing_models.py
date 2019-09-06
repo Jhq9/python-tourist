@@ -27,3 +27,11 @@ unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
+
+unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
+completed_models = []
+
+# [:]表示传递的是列表的副本，不能改变原始的列表的元素
+print(unprinted_designs[:], completed_models)
+print(unprinted_designs)

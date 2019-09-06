@@ -14,3 +14,15 @@ while True:
 
     formatted_name = get_formatted_name(f_name, l_name)
     print("\nHello," + formatted_name + "!")
+# 定义函数
+def greet_user():
+    print("Hello!")
+
+# 调用函数
+greet_user()
+
+# 没有重载，username表示形参，而传入的'May'为实参
+def greet_user_username(username):
+    print("Hello, " + username.title() + "!")
+
+greet_user_username("May")
