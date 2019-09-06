@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter-9" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter-10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-11" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (python-tourist)" jdkType="Python SDK" />
